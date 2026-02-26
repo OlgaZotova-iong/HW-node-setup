@@ -4,12 +4,16 @@
   "description": "test project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "neto"
   },
   "keywords": [
     "test"
   ],
   "author": "Olga Zotova",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^10.0.2",
+    "prettier": "^3.8.1"
+  }
 }
