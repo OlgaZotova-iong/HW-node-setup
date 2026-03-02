@@ -13,6 +13,12 @@
   },
   "rules": {
     "no-console": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "eqeqeq": ["warn", "always"],
+    "no-var": "warn",
+    "no-debugger": "off", 
+    "curly": ["error", "all"]
   }
-}
+  }
+
